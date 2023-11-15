@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+}
+.topic{
+
+}
+.input-task,.input-date{
+    font-size: 15px;
+    padding: 6px;
+}
+
+.addbutton{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.input-button,.output{
+    display: grid;
+    grid-template-columns: 200px 150px 100px; /*3 columns of 3 given size*/
+    column-gap:10px;
+    row-gap:10px;
+    align-items: center;
+    
+}
+.input-button{
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+.delete-button{
+    background-color: darkred;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 0;
+}
